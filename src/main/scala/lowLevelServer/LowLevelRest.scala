@@ -175,5 +175,4 @@ object LowLevelRest extends App with GuitarStoreJsonProtocol {
   }
 
   Http().bindAndHandleAsync(requestHandler, "localhost", 8080)
-  // TODO - tudo pronto, só terminar a aula e commitar!
 }
